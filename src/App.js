@@ -10,9 +10,9 @@ import { HashLink as Link } from 'react-router-hash-link';
 function App() {
   return (
     <BrowserRouter>
-      <div className='App bg-dark_gray'>
+      <div className='App bg-dark_gray ts:bg-auto'>
         <div className='bg-black sticky top-0 z-10 text-white'>
-          <div className='nav container mx-auto flex flex-wrap p-5  flex-row '>
+          <div className='nav container mx-auto flex flex-wrap p-5 flex-row '>
             <div className='title-font font-medium '>
               <a href='#' className='brand ml-3 text-xl mr-80'>Ideal Kitchen</a>
             </div>
