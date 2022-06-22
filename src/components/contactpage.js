@@ -16,9 +16,9 @@ export default function Contactpage() {
           <input className="rounded-md shadow-md" type="text" />
 
           <label>Message</label>
-          <textarea className="rounded-md shadow-md" class="form-control" />
+          <textarea className="rounded-md shadow-md" />
 
-          <button className="bg-black text-white rounded-md shadow-md m-20 px-0">Submit</button>
+          <button className="bg-black text-white rounded-md shadow-md mt-20 align-center">Submit</button>
           
         </form>
       </div>
